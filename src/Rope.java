@@ -3,7 +3,6 @@ import java.util.concurrent.Semaphore;
 public class Rope extends Semaphore{
 	public Rope(int permits) {
 		super(permits);
-		// TODO Auto-generated constructor stub
 		Rope.monkeysOnRope = 0;
 		Rope.direction = Direction.none;
 	}
